@@ -1,3 +1,5 @@
+using System.Net.Mail;
+using System.Net;
 
             var client = new SmtpClient("smtp.gmail.com", 587)
             {
